@@ -8,7 +8,7 @@ end
 
 # code your input_to_index and move method here!
 
-def input_to_index(num)
-  index = num - 1
+def input_to_index(user_input)
+  index = user_input - 1
   board[index] = ' X '
 end
