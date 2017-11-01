@@ -10,5 +10,4 @@ end
 
 def input_to_index(user_input)
   index = user_input - 1
-  board[index] = ' X '
 end
