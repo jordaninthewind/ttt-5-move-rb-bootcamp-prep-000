@@ -9,4 +9,4 @@ move = gets.strip
 
 input_to_index(move)
 
-puts display_board(board)
+puts display_board()
