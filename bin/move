@@ -7,4 +7,8 @@ puts "Where would you like to go?"
 
 input = gets.strip
 
-puts input_to_index(input)
+loca = input_to_index(input)
+
+move(display_board, loca, X)
+
+puts display_board
