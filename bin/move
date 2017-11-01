@@ -2,12 +2,14 @@
 
 require_relative '../lib/move.rb'
 
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
 puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?"
 
 input = gets.strip
 
-puts display_board(board)
+puts display_board
 # loca = input_to_index(input)
 #
 # move(display_board, loca, X)
